@@ -69,16 +69,15 @@ export default class TaskList extends Component {
     }
 
     toggleTask = taskId => {
-        debugger
         const tasks = [...this.state.tasks]
+
         tasks.forEach(task => {
-            debugger
             if(task.id === taskId){
                 task.doneAt = task.doneAt ? null : new Date()
             }
         })
 
-        this.setState({ tasks: tasks }, this.filterTasks)
+        this.setState({ tasks }, this.filterTasks)
     }
 
     addTask = newTask => {
