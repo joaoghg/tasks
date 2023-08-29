@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a818f31-0b50-40b0-93b9-affbf56d0b80" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Task.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Task.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/screens/TaskList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/TaskList.js" afterDir="false" />
-    </list>
+    <list default="true" id="4a818f31-0b50-40b0-93b9-affbf56d0b80" name="Changes" comment="ajuste marcar tasks" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,11 +63,23 @@
       <updated>1693165501558</updated>
       <workItem from="1693165502546" duration="20184000" />
       <workItem from="1693195248181" duration="32000" />
-      <workItem from="1693274551693" duration="1999000" />
+      <workItem from="1693274551693" duration="2689000" />
     </task>
+    <task id="LOCAL-00001" summary="ajuste marcar tasks">
+      <created>1693276877865</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1693276877865</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ajuste marcar tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajuste marcar tasks" />
   </component>
 </project>
