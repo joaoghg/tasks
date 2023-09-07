@@ -4,16 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a818f31-0b50-40b0-93b9-affbf56d0b80" name="Changes" comment="ajuste marcar tasks">
-      <change afterPath="$PROJECT_DIR$/backend/api/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/config/db.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/config/middlewares.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/config/routes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/knexfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/migrations/20230902123014_create_table_users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/migrations/20230902123031_create_table_tasks.js" afterDir="false" />
+    <list default="true" id="4a818f31-0b50-40b0-93b9-affbf56d0b80" name="Changes" comment="tasks">
+      <change afterPath="$PROJECT_DIR$/backend/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/api/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/api/task.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/config/passport.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config/routes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/migrations/20230902123014_create_table_users.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/migrations/20230902123014_create_table_users.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +50,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "javascript.nodejs.core.library.configured.version": "18.16.0",
     "javascript.nodejs.core.library.typings.version": "18.16.0",
-    "last_opened_file_path": "C:/tasks/backend",
+    "last_opened_file_path": "C:/tasks",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -80,7 +79,10 @@
       <workItem from="1693274551693" duration="4528000" />
       <workItem from="1693279940976" duration="93000" />
       <workItem from="1693622600686" duration="1208000" />
-      <workItem from="1693654821903" duration="4386000" />
+      <workItem from="1693654821903" duration="4721000" />
+      <workItem from="1693669277195" duration="595000" />
+      <workItem from="1693692651333" duration="566000" />
+      <workItem from="1694106867360" duration="3555000" />
     </task>
     <task id="LOCAL-00001" summary="ajuste marcar tasks">
       <created>1693276877865</created>
@@ -110,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693280009819</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="tasks">
+      <created>1693669060189</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1693669060189</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +128,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="ajuste marcar tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajuste marcar tasks" />
+    <MESSAGE value="tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="tasks" />
   </component>
 </project>
