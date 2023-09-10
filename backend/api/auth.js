@@ -1,4 +1,4 @@
-const { authSecret } = require('../.env')
+const authSecret = 'jorge'
 const jwt = require('jwt-simple')
 const bcrypt = require('bcrypt-nodejs')
 
@@ -9,13 +9,13 @@ module.exports = app => {
         }
 
         const user = await app.db(`users`)
-            .where({ email: req.body.email })
+            .whereRaw("LOWER(email) = LOWER(?)", req.body.email)
             .first()
 
         if(user){
             bcrypt.compare(req.body.password, user.password, (err, isMatch) => {
                 if(err || !isMatch) {
-                    return res.status(401).send()
+                    return res.status(401).send('A senha informada é invalida!')
                 }
 
                 const payload = { id: user.id }
@@ -29,4 +29,6 @@ module.exports = app => {
             res.status(400).send(`Usuário não cadastrado`)
         }
     }
+
+    return { signIn }
 }

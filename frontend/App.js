@@ -1,7 +1,8 @@
+import 'react-native-gesture-handler';
 import React from "react";
-import TaskList from "./src/screens/TaskList";
 import { useFonts } from 'expo-font'
-import { GestureHandlerRootView } from 'react-native-gesture-handler'
+import Navigator from "./src/Navigator";
+import { NavigationContainer } from '@react-navigation/native';
 
 export default function App() {
 
@@ -13,9 +14,9 @@ export default function App() {
         return null
     }else{
         return (
-            <GestureHandlerRootView style={{ flex: 1 }}>
-                <TaskList/>
-            </GestureHandlerRootView>
+            <NavigationContainer>
+                <Navigator/>
+            </NavigationContainer>
         );
     }
 }
